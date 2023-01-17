@@ -29,6 +29,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Toolbar;
+import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -111,6 +112,9 @@ public class SettingsBaseActivity extends FragmentActivity implements CategoryHa
             mAppBarLayout = findViewById(R.id.app_bar);
             if (mCollapsingToolbarLayout != null) {
                 mCollapsingToolbarLayout.setLineSpacingMultiplier(TOOLBAR_LINE_SPACING_MULTIPLIER);
+                LinearLayout.LayoutParams params_1 = (LinearLayout.LayoutParams) mCollapsingToolbarLayout.getLayoutParams();
+                params_1.height=450;
+                mCollapsingToolbarLayout.setLayoutParams(params_1);
             }
             disableCollapsingToolbarLayoutScrollingBehavior();
         } else {
