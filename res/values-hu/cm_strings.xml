@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The LineageOS Project
+     Copyright (C) 2017-2023 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,14 +24,13 @@
     <string name="berry_black_theme_title">Valódi fekete</string>
     <string name="berry_black_theme_summary">Egy igazán fekete háttér a fekete témákhoz</string>
     <string name="lineagelicense_title">LineageOS jogi nyilatkozat</string>
+    <string name="device_info_protected_single_press">Érintés után láthatja az infókat</string>
     <plurals name="show_dev_countdown_cm">
         <item quantity="one">Ön <xliff:g id="step_count">%1$d</xliff:g> lépésre van attól, hogy engedélyezze a fejlesztői beállításokat.</item>
         <item quantity="other">Ön <xliff:g id="step_count">%1$d</xliff:g> lépésre van attól, hogy engedélyezze a fejlesztői beállításokat.</item>
     </plurals>
     <string name="show_dev_on_cm">Sikeresen engedélyezte a fejlesztői beállításokat!</string>
     <string name="show_dev_already_cm">Már korábban engedélyezte a fejlesztői beállításokat.</string>
-    <string name="theme_customization_font_title">Betűtípus</string>
-    <string name="theme_customization_icon_shape_title">Ikonforma</string>
     <string name="peak_refresh_rate_summary_custom">Néhány tartalomnál automatikusan megemeli a frissítés gyakoriságát 60-ról %1$d Hz-re. Növeli az akkumulátorhasználatot.</string>
     <string name="status_bar_double_tap_to_sleep_title">Dupla érintésre alvómód</string>
     <string name="status_bar_double_tap_to_sleep_summary">Az állapotsor vagy a záróképernyő dupla érintésére kikapcsol a képernyő</string>
@@ -58,6 +57,9 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Táblagépe hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Készüléke hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Táblagépe oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Készüléke oldalán találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Telefonja oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Érintse meg a szenzort készüléke előlapján.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Érintse meg a szenzort készüléke előlapján.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Érintse meg a szenzort telefonja előlapján.</string>
@@ -96,7 +98,6 @@
     <string name="touchscreen_gesture_settings_summary">Különböző képernyő-mozdulatvezérlések végrehajtása a gyorsműveletekhez</string>
     <string name="touchscreen_hovering_title">Lebegő érintés</string>
     <string name="touchscreen_hovering_summary">Engedélyezi a lebegéssel való vezérlést, mint egy egérrel a böngészőknél, távoli asztaloknál, stb.</string>
-    <string name="volume_link_notification_title">Értesítési és csengőhangok összekapcsolása</string>
     <string name="wake_when_plugged_or_unplugged_title">Felébredés töltő csatlakoztatásakor</string>
     <string name="wake_when_plugged_or_unplugged_summary">A képernyő bekapcsolása a töltő csatlakoztatása/eltávolítása után</string>
     <string name="fast_charging_title">Gyorstöltés</string>
@@ -105,4 +106,5 @@
     <string name="ambient_display_screen_off_udfps_title" product="tablet">Az ujjlenyomat-olvasó hosszannyomásával feloldható a táblagép</string>
     <string name="ambient_display_screen_off_udfps_title" product="device">Az ujjlenyomat-olvasó hosszannyomásával feloldható a készülék</string>
     <string name="ambient_display_screen_off_udfps_summary">A képernyő felébresztéséhez és feloldásához nyomja meg hosszan a képernyőbe épitett ujjlenyomat-olvasót.</string>
+    <string name="storage_warning_internal">Figyelmeztetés: Előfordulhat, hogy ez a lehetőség nem működik megfelelően, vagy adatvesztéshez vezethet, ezért nem javasolt!</string>
 </resources>

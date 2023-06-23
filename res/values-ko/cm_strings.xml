@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The LineageOS Project
+     Copyright (C) 2017-2023 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -24,13 +24,12 @@
     <string name="berry_black_theme_title">검정색</string>
     <string name="berry_black_theme_summary">어두운 테마 사용 시 완전 검정색 배경 사용</string>
     <string name="lineagelicense_title">LineageOS 법적 고지</string>
+    <string name="device_info_protected_single_press">눌러서 정보 보기</string>
     <plurals name="show_dev_countdown_cm">
         <item quantity="other">개발자 설정을 활성화하려면 <xliff:g id="step_count">%1$d</xliff:g>회 더 누르세요.</item>
     </plurals>
     <string name="show_dev_on_cm">개발자 설정이 활성화되었습니다.</string>
     <string name="show_dev_already_cm">이미 개발자 설정이 활성화되어 있습니다.</string>
-    <string name="theme_customization_font_title">글꼴</string>
-    <string name="theme_customization_icon_shape_title">아이콘 모양</string>
     <string name="peak_refresh_rate_summary_custom">일부 콘텐츠의 새로고침 빈도를 자동으로 60Hz에서 %1$dHz로 늘립니다. 이렇게 하면 배터리 사용량이 증가합니다.</string>
     <string name="status_bar_double_tap_to_sleep_title">두드려 화면 끄기</string>
     <string name="status_bar_double_tap_to_sleep_summary">상태 표시줄이나 잠금 화면을 두 번 두드려 화면 끄기</string>
@@ -57,6 +56,9 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">태블릿 뒷면에 지문 센서가 있습니다.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">기기 뒷면에 지문 센서가 있습니다.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">휴대전화 뒷면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">태블릿 옆면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">기기 옆면에 지문 센서가 있습니다.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">휴대전화 옆면에 지문 센서가 있습니다.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">태블릿 앞면에 있는 지문 센서를 누르세요.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">기기 앞면에 있는 지문 센서를 누르세요.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="default">휴대전화 앞면에 있는 지문 센서를 누르세요.</string>
@@ -95,7 +97,6 @@
     <string name="touchscreen_gesture_settings_summary">다양한 터치스크린 제스처를 사용하여 빠른 작업 실행</string>
     <string name="touchscreen_hovering_title">터치스크린 호버링</string>
     <string name="touchscreen_hovering_summary">웹 브라우저나 원격 데스크톱과 같은 앱에서 마우스처럼 화면에 호버링하여 사용할 수 있습니다.</string>
-    <string name="volume_link_notification_title">벨소리 볼륨과 알림 볼륨 연결</string>
     <string name="wake_when_plugged_or_unplugged_title">충전 시 켜짐</string>
     <string name="wake_when_plugged_or_unplugged_summary">전원이 연결되거나 분리될 때 화면 켜기</string>
     <string name="fast_charging_title">고속 충전</string>
@@ -104,4 +105,5 @@
     <string name="ambient_display_screen_off_udfps_title" product="tablet">지문 인식 센서를 길게 눌러 태블릿 잠금 해제</string>
     <string name="ambient_display_screen_off_udfps_title" product="device">지문 인식 센서를 길게 눌러 기기 잠금 해제</string>
     <string name="ambient_display_screen_off_udfps_summary">화면을 켜고 잠금을 해제하려면, 화면 아래에 있는 지문 인식 센서를 길게 누르세요.</string>
+    <string name="storage_warning_internal">경고: 이 옵션은 제대로 작동하지 않거나 데이터 손실이 일어날 가능성이 있으므로 권장하지 않습니다!</string>
 </resources>

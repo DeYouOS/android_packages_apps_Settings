@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The LineageOS Project
+     Copyright (C) 2017-2023 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -31,14 +31,9 @@
     </plurals>
     <string name="show_dev_on_cm">შემმუშავებლის პარამეტრები ჩართულია!</string>
     <string name="show_dev_already_cm">საჭირო აღარაა, შემმუშავებლის პარამეტრები უკვე ამოქმედებულია.</string>
-    <string name="theme_customization_font_title">შრიფტი</string>
-    <string name="theme_customization_icon_shape_title">ხატულის მოხაზულობა</string>
     <string name="peak_refresh_rate_summary_custom">ავტომატურად ზრდის განახლების სიხშირეს 60-დან და %1$d ჰც-მდე გარკვეული კონტენტისთვის. გაზრდის ბატარეის მოხმარებას.</string>
     <string name="status_bar_double_tap_to_sleep_title">შეხებით დაძინება</string>
     <string name="status_bar_double_tap_to_sleep_summary">მდგომარეობის ზოლზე ან ჩაკეტილზე ორმაგი შეხებით ეკრანის ჩაქრობა</string>
-    <string name="fingerprint_wake_unlock_title">თითის ანაბეჭდით გახსნა</string>
-    <string name="fingerprint_wake_unlock_touch">ელოდება მოქმედებას, როცა ეკრანი ჩამქრალია</string>
-    <string name="fingerprint_wake_unlock_press">ელოდება მოქმედებას მხოლოდ ანთებული ეკრანის დროს</string>
     <string name="high_touch_polling_rate_title">შეხებისას მაღალი შერჩევის სიხშირე</string>
     <string name="high_touch_polling_rate_summary">ეკრანზე შეხების აღქმის სიხშირის გაზრდა</string>
     <string name="heads_up_notifications_enabled_title">ამომხტომი</string>
@@ -62,6 +57,9 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">მონახეთ თითის ანაბეჭდის აღმქმელი პლანშეტის უკანა მხარეს.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">მონახეთ თითის ანაბეჭდის აღმქმელი მოწყობილობის უკანა მხარეს.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">მონახეთ თითის ანაბეჭდის აღმქმელი ტელეფონის უკანა მხარეს.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">მონახეთ თითის ანაბეჭდის აღმქმელი პლანშეტის გვერდითა მხარეს.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">მონახეთ თითის ანაბეჭდის აღმქმელი მოწყობილობის გვერდითა მხარეს.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">მონახეთ თითის ანაბეჭდის აღმქმელი ტელეფონის გვერდითა მხარეს.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">შეეხეთ აღმქმელს პლანშეტის წინა მხარეს.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">შეეხეთ აღმქმელს მოწყობილობის წინა მხარეს.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="default">შეეხეთ აღმქმელს ტელეფონის წინა მხარეს.</string>
@@ -100,7 +98,6 @@
     <string name="touchscreen_gesture_settings_summary">ეკრანზე სხვადასხვაგვარი შეხება, სწრაფი მოქმედებებისთვის</string>
     <string name="touchscreen_hovering_title">ეკრანზე შეხებით გადაფარვა</string>
     <string name="touchscreen_hovering_summary">მსგავსად მაუსის მაჩვენებლით გადაფარვისა ბრაუზერებში, დაშორებულ კომპიუტერზე და ა.შ.</string>
-    <string name="volume_link_notification_title">ზარისა და შეტყობინებების ხმის დონეების დაკავშირება</string>
     <string name="wake_when_plugged_or_unplugged_title">გამოღვიძება შეერთებისას</string>
     <string name="wake_when_plugged_or_unplugged_summary">ეკრანის ჩართვა კვების შეერთებისას ან გამოერთებისას</string>
     <string name="fast_charging_title">სწრაფი დამუხტვა</string>
@@ -110,4 +107,5 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">მოწყობილობის გახსნა თითის ანაბეჭდის აღმქმელზე დიდხანს დაჭერით</string>
     <string name="ambient_display_screen_off_udfps_summary">ეკრანის ჩასართავად და გასახსნელად დიდხანს დააჭირეთ თითის ანაბეჭდის ეკრანქვეშა აღმქმელს.</string>
     <string name="storage_warning_internal">გაფრთხილება: ამ პარამეტრმა შეიძლება ვერ იმუშაოს სათანადოდ ან მონაცემთა დაკარგვა გამოიწვიოს, შესაბამისად არასასურველია!</string>
+    <string name="assisted_gps_summary">დამხმარე თანამგზავრული მონაცემების ინტერნეტიდან ჩამოტვირთვა, რომ მეტად გაუმჯობესდეს შედეგიანობა GPS-ის ამუშავებისთანავე. გადაუდებელი ზარებისას GPS-ის დამხმარე მონაცემები მუდამ ნებადართულია.</string>
 </resources>

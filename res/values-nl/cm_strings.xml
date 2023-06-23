@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The LineageOS Project
+     Copyright (C) 2017-2023 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -31,14 +31,9 @@
     </plurals>
     <string name="show_dev_on_cm">U hebt de opties voor ontwikkelaars ingeschakeld!</string>
     <string name="show_dev_already_cm">Niet nodig, u hebt de opties voor ontwikkelaars al ingeschakeld.</string>
-    <string name="theme_customization_font_title">Lettertype</string>
-    <string name="theme_customization_icon_shape_title">Pictogram vorm</string>
     <string name="peak_refresh_rate_summary_custom">Hiermee wordt de vernieuwingssnelheid automatisch verhoogd van 60 naar %1$d Hz voor bepaalde content. Het batterijgebruik neemt toe.</string>
     <string name="status_bar_double_tap_to_sleep_title">Tikken om te slapen</string>
     <string name="status_bar_double_tap_to_sleep_summary">Dubbeltikken op de statusbalk of schermvergrendeling om het scherm uit te schakelen</string>
-    <string name="fingerprint_wake_unlock_title">Gebruik vingerafdruk om te ontgrendelen</string>
-    <string name="fingerprint_wake_unlock_touch">Luisters voor gebeurtenissen wanneer het scherm uit is</string>
-    <string name="fingerprint_wake_unlock_press">Luistert alleen naar gebeurtenissen zodra het scherm aan is</string>
     <string name="high_touch_polling_rate_title">Hoge touch polling snelheid</string>
     <string name="high_touch_polling_rate_summary">Verhoog touchscreen polling snelheid</string>
     <string name="heads_up_notifications_enabled_title">Heads-up</string>
@@ -62,6 +57,9 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vind de vingerafdruksensor op de achterkant van uw tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vind de vingerafdrukscanner aan de linkerkant van uw apparaat.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vind de vingerafdruksensor op de achterkant van uw telefoon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vind de vingerafdruksensor op de zijkant van uw tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Vind de vingerafdruksensor aan de zijkant van uw apparaat.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Vind de vingerafdruksensor op de zijkant van uw telefoon.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Raak de sensor aan op de voorkant van uw tablet.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Raak de sensor aan op de voorkant van uw tablet.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Raak de sensor aan op de voorkant van uw telefoon.</string>
@@ -100,7 +98,6 @@
     <string name="touchscreen_gesture_settings_summary">Diverse schermgebaren gebruiken voor snelle acties</string>
     <string name="touchscreen_hovering_title">Zweven boven scherm</string>
     <string name="touchscreen_hovering_summary">Met uw vinger boven het zwerm zweven, zoals een muis in browsers, bureaublad op afstand, etc.</string>
-    <string name="volume_link_notification_title">Volume beltoon en meldingen koppelen</string>
     <string name="wake_when_plugged_or_unplugged_title">Ontwaken door lader</string>
     <string name="wake_when_plugged_or_unplugged_summary">Scherm aan bij het aansluiten of loskoppelen van een lader</string>
     <string name="fast_charging_title">Snelladen</string>
@@ -110,4 +107,5 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Vingerafdruksensor lang indrukken om apparaat te ontgrendelen</string>
     <string name="ambient_display_screen_off_udfps_summary">Houdt de vingerafdruksensor lang ingedrukt om het scherm aan te zetten en te ontgrendelen.</string>
     <string name="storage_warning_internal">Waarschuwing: Deze optie werkt mogelijk niet goed of leidt tot gegevensverlies en wordt daarom niet aangeraden!</string>
+    <string name="assisted_gps_summary">Download satellietondersteuningsgegevens van het internet die de opstartprestaties van GPS aanzienlijk kunnen verbeteren. Voor noodoproepen is assisted GPS altijd toegestaan.</string>
 </resources>

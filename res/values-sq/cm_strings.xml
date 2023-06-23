@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2017-2022 The LineageOS Project
+     Copyright (C) 2017-2023 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -31,14 +31,9 @@
     </plurals>
     <string name="show_dev_on_cm">Ju keni aktivizuar parametrat e zhvillimit!</string>
     <string name="show_dev_already_cm">Nuk ka më nevojë të shtypni! Parametrat e zhvillimit janë të aktivizuara.</string>
-    <string name="theme_customization_font_title">Fonti</string>
-    <string name="theme_customization_icon_shape_title">Forma e ikonës</string>
     <string name="peak_refresh_rate_summary_custom">Rrit automatikisht shpejtësinë e rifreskimit nga 60 në %1$d Hz për disa përmbajtje. Rrit përdorimin e baterisë.</string>
     <string name="status_bar_double_tap_to_sleep_title">Shtyp për të fjetur</string>
     <string name="status_bar_double_tap_to_sleep_summary">Shtyp dy herë shiritin e ekranit ose mbyllekranin për të fikur ekranin</string>
-    <string name="fingerprint_wake_unlock_title">Prek gjurmën e gishtit për ta zhbllokuar</string>
-    <string name="fingerprint_wake_unlock_touch">Dëgjon ngjarje kur ekrani është i fikur</string>
-    <string name="fingerprint_wake_unlock_press">Dëgjon ngjarje vetëm pasi ekrani është i ndezur</string>
     <string name="high_touch_polling_rate_title">Shkalla e lartë e sondazheve me prekje</string>
     <string name="high_touch_polling_rate_summary">Rrit normën e sondazheve me ekran me prekje</string>
     <string name="heads_up_notifications_enabled_title">Heads-up</string>
@@ -62,6 +57,9 @@
     <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Gjeni sensorin e gjurmës së gishtit në anën e pasme të tabletit tuaj</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Gjeni sensorin e gjurmës së gishtit në anën e pasme të pajisjes tuaj.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Gjeni sensorin e gjurmës së gishtit në anën e pasme të telefonit tuaj.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Gjeni sensorin e gjurmës së gishtit në anën e tabletit tuaj.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Gjeni sensorin e gjurmës së gishtit në anën e pajisjes tuaj.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Gjeni sensorin e gjurmës së gishtit në anën e telefonit tuaj.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Prekni sensorin në pjesën e përparme të tabletit tuaj.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Prekni sensorin në pjesën e përparme të pajisjes tuaj.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Prekni sensorin në pjesën e përparme të telefonit tuaj.</string>
@@ -100,7 +98,6 @@
     <string name="touchscreen_gesture_settings_summary">Kryej gjeste të ndryshme duke prekur ekranin për veprime të shpejta</string>
     <string name="touchscreen_hovering_title">Ekrani me prekje qëndron pezull</string>
     <string name="touchscreen_hovering_summary">Ju lejon të rri pezull në ekran si një mi në shfletuesit e internetit, desktopët e largët, etj</string>
-    <string name="volume_link_notification_title">Lidh volumin e ziles &amp; njoftimeve</string>
     <string name="wake_when_plugged_or_unplugged_title">Zgjohoje kur lidh karikuesin</string>
     <string name="wake_when_plugged_or_unplugged_summary">Ndizni ekranin kur lidhni ose shkëputni karikuesin</string>
     <string name="fast_charging_title">Karikim i shpejtë</string>
@@ -110,4 +107,5 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Shtypni gjatë sensorin e gjurmës së gishtit për të shkyçur pajisjen</string>
     <string name="ambient_display_screen_off_udfps_summary">Për të zgjuar ekranin dhe për të shkyçur, shtypni gjatë sensorin e gjurmës së gishtit nën ekran.</string>
     <string name="storage_warning_internal">Paralajmërim: Ky opsion mund të mos funksionojë siç duhet ose të çojë në humbje të të dhënave dhe për këtë arsye nuk rekomandohet!</string>
+    <string name="assisted_gps_summary">Shkarkoni të dhënat e ndihmës satelitore nga interneti, të cilat mund të përmirësojnë shumë performancën e nisjes së GPS. Për thirrjet e urgjencës, GPS i asistuar lejohet gjithmonë.</string>
 </resources>
